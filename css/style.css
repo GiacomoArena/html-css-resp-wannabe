@@ -140,14 +140,15 @@ img {
     }
     
     .row{
-        margin-top: 10px;
         flex-direction: column;
         align-items: center;
     }
     .lessons .col, .row .col{
-        margin-top: 20px;
         width: 90%;
         margin: 0 auto;
+    }
+    img{
+        margin-top: 20px;
     }
 
 }
