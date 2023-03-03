@@ -133,7 +133,21 @@ img {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:480px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
     
-    
+    .row{
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lessons .col, .row .col{
+        margin-top: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
 }
